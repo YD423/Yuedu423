@@ -1,0 +1,23 @@
+ <!--pages/personal/personal.wxml-->
+<view class="{{personalWrap}}">
+    <view class="{{personalMe}}" >
+        <image src="{{userHead}}" style="width:68px;height:68px;border:1px solid #ddd;float:left;margin:20rpx 20rpx;border-radius: 50%;"></image>
+        <view class="personalInfo">
+            <text>昵称: {{userName}}</text>
+            <text>性别: {{userSex}}</text>
+        </view>
+    </view>
+    <!-- 列表 -->
+    <view class="{{class}}">
+        <view class="iconfont icon-reserve"  bindtap="listFirst">收藏</view>
+       <view class="iconfont icon-reserve" bindtap='two'>二维码</view>
+        <view class="iconfont icon-edition" >设置</view>
+        <view class="iconfont icon-edition" >夜间模式
+        <switch bindchange="switchChange" color ="{{skinStyle}}" class="switch"/>
+        </view>
+        <view class="iconfont icon-feedback" bindtap='tap'>
+        联系我们
+        </view>
+    </view>
+    <button type="default"  bindtap="defaultLogin" data-login="{{login}}" hover-class="other-button-hover"> {{operation}} </button>
+</view>

@@ -1,0 +1,7 @@
+view{
+   display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: orange;
+  margin-top: 100rpx;
+}

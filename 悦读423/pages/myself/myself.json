@@ -1,0 +1,8 @@
+{
+  "pages": [
+    "collect/collect",
+    "contact/contact",
+    "qr/qr"
+  ],
+"navigationBarTitleText": "我"
+}

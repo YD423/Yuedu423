@@ -1,0 +1,13 @@
+<view>
+<text class='scanner'>请扫描下方小程序码推广</text>
+
+<view class='v2'>
+<image mode='aspectFit' src='../../../pic/ydses.jpg'/>
+</view>
+
+<text class='scanner'>请扫描下方二维码资助我们，谢谢！</text>
+
+<view class='v2'>
+<image mode='aspectFit' src='../../../pic/invest.jpg'/>
+</view>
+</view>
